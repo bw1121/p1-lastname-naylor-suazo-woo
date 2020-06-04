@@ -2,8 +2,19 @@
 
 // Global
 
+h1, h2, h3, h4 {
+    .headlines();
+}
+
+p {
+    .body-copy();
+}
+
+// Nav
+
 .navbar {
     box-shadow: 2px 2px 4px @lightgray;
+    text-align: @center;
     .logo {
         height: 2.5rem;
         
@@ -11,12 +22,20 @@
             height: 3rem;
         }
     }
-}
+    .nav-item {
+        padding: @pad-xs @pad-sm !important;
+        border-bottom: @border-gray;
 
-h1, h2, h3, h4 {
-    .headlines();
-}
-
-p {
-    font-family: @body;
+        @media (min-width: 991px) {
+            border-bottom: none;
+            font-size: @font-md;
+        }
+        &:last-child {
+            border-bottom: none;
+        }
+        .nav-link {
+            .body-copy();
+            .emphasize();
+        }
+    }
 }

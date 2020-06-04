@@ -2,17 +2,13 @@
   font-family: all-round-gothic, sans-serif;
   font-weight: bold;
 }
-.navbar {
-  -webkit-box-shadow: 2px 2px 4px #f7f7f7;
-          box-shadow: 2px 2px 4px #f7f7f7;
+.body-copy {
+  font-family: nanum-gothic, sans-serif;
+  font-weight: normal;
 }
-.navbar .logo {
-  height: 2.5rem;
-}
-@media (min-width: 768px) {
-  .navbar .logo {
-    height: 3rem;
-  }
+.emphasize {
+  color: #22293d !important;
+  font-weight: 800;
 }
 h1,
 h2,
@@ -23,4 +19,37 @@ h4 {
 }
 p {
   font-family: nanum-gothic, sans-serif;
+  font-weight: normal;
+}
+.navbar {
+  -webkit-box-shadow: 2px 2px 4px #f7f7f7;
+          box-shadow: 2px 2px 4px #f7f7f7;
+  text-align: center;
+}
+.navbar .logo {
+  height: 2.5rem;
+}
+@media (min-width: 768px) {
+  .navbar .logo {
+    height: 3rem;
+  }
+}
+.navbar .nav-item {
+  padding: 1rem 1.5rem !important;
+  border-bottom: 1px solid #f7f7f7;
+}
+@media (min-width: 991px) {
+  .navbar .nav-item {
+    border-bottom: none;
+    font-size: 1.2rem;
+  }
+}
+.navbar .nav-item:last-child {
+  border-bottom: none;
+}
+.navbar .nav-item .nav-link {
+  font-family: nanum-gothic, sans-serif;
+  font-weight: normal;
+  color: #22293d !important;
+  font-weight: 800;
 }
