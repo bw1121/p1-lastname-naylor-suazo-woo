@@ -1,7 +1,16 @@
-.logo {
-    height: 2.5rem;
-    
-    @media (min-width: 768px) {
-        height: 3rem;
+@import "mixins";
+
+//Global
+
+
+
+.navbar {
+    box-shadow: 2px 2px 4px @lightgray;
+    .logo {
+        height: 2.5rem;
+        
+        @media (min-width: 768px) {
+            height: 3rem;
+        }
     }
 }
