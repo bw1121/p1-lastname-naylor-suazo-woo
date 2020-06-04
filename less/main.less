@@ -1,8 +1,6 @@
 @import "mixins";
 
-//Global
-
-
+// Global
 
 .navbar {
     box-shadow: 2px 2px 4px @lightgray;
@@ -13,4 +11,12 @@
             height: 3rem;
         }
     }
+}
+
+h1, h2, h3, h4 {
+    .headlines();
+}
+
+p {
+    font-family: @body;
 }

@@ -1,1 +1,26 @@
-.navbar{-webkit-box-shadow:2px 2px 4px #f7f7f7;box-shadow:2px 2px 4px #f7f7f7}.navbar .logo{height:2.5rem}@media (min-width:768px){.navbar .logo{height:3rem}}
+.headlines {
+  font-family: all-round-gothic, sans-serif;
+  font-weight: bold;
+}
+.navbar {
+  -webkit-box-shadow: 2px 2px 4px #f7f7f7;
+          box-shadow: 2px 2px 4px #f7f7f7;
+}
+.navbar .logo {
+  height: 2.5rem;
+}
+@media (min-width: 768px) {
+  .navbar .logo {
+    height: 3rem;
+  }
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: all-round-gothic, sans-serif;
+  font-weight: bold;
+}
+p {
+  font-family: nanum-gothic, sans-serif;
+}
