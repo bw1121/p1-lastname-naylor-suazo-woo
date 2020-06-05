@@ -3,14 +3,25 @@
 .headlines {
   font-family: all-round-gothic, sans-serif;
   font-weight: bold;
+  color: #22293d;
 }
 .body-copy {
   font-family: nanum-gothic, sans-serif;
   font-weight: normal;
+  color: #22293d;
 }
 .emphasize {
   color: #22293d !important;
   font-weight: 800;
+}
+.links {
+  text-decoration: underline;
+  color: #cf6060;
+  font-weight: 800;
+}
+.links:hover {
+  text-decoration: none;
+  color: #cf6060;
 }
 .hero {
   height: 150px;
@@ -74,6 +85,7 @@ h3,
 h4 {
   font-family: all-round-gothic, sans-serif;
   font-weight: bold;
+  color: #22293d;
 }
 h3 {
   font-size: 1.5rem;
@@ -86,10 +98,12 @@ h3 {
 h5 {
   font-family: nanum-gothic, sans-serif;
   font-weight: 800;
+  color: #22293d;
 }
 p {
   font-family: nanum-gothic, sans-serif;
   font-weight: normal;
+  color: #22293d;
 }
 .btn-primary {
   border: none;
@@ -146,6 +160,7 @@ p {
 .navbar .nav-item .nav-link {
   font-family: nanum-gothic, sans-serif;
   font-weight: normal;
+  color: #22293d;
   color: #22293d !important;
   font-weight: 800;
 }
@@ -198,11 +213,20 @@ p {
 main {
   padding: 1.5rem 0;
 }
+main a {
+  text-decoration: underline;
+  color: #cf6060;
+  font-weight: 800;
+}
+main a:hover {
+  text-decoration: none;
+  color: #cf6060;
+}
 main .service-card {
   border: 1px solid #22293d;
   border-radius: 8px;
   padding: 1.5rem;
-  margin: auto;
+  margin: 0 auto 1.5rem;
 }
 main .service-card h3 {
   text-align: center;

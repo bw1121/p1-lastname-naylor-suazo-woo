@@ -4,16 +4,29 @@
 .headlines {
     font-family: @headlines;
     font-weight: bold;
+    color: @blackblue;
 }
 
 .body-copy {
     font-family: @body;
     font-weight: normal;
+    color: @blackblue;
 }
 
 .emphasize {
     color: @blackblue !important;
     font-weight: @extrabold;
+}
+
+//Links
+.links {
+    text-decoration: underline;
+    color: @red;
+    font-weight: @extrabold;
+    &:hover {
+        text-decoration: none;
+        color: @red;
+    }
 }
 
 // General hero styles
