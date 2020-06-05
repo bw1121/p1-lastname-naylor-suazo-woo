@@ -1,5 +1,6 @@
 @import "variables";
 
+// Font styles
 .headlines {
     font-family: @headlines;
     font-weight: bold;
@@ -13,4 +14,47 @@
 .emphasize {
     color: @blackblue !important;
     font-weight: @extrabold;
+}
+
+// General hero styles
+.hero {
+    height: 150px;
+    text-align: center;
+    background-size: cover;
+    padding: 0;
+    .container {
+        height: inherit;
+    }
+    h1 {
+        font-size: @head-lg;
+        padding: 51px 0;
+        margin: 0;
+    }
+    img {
+        display: none;
+    }
+    @media (min-width: 768px) {
+        height: 200px;
+        h1 {
+            font-size: @head-xl;
+            padding: 67.5px 0;
+        }
+    }
+    @media (min-width: 991px) {
+        height: 320px;
+        .container {
+            position: relative;
+            h1 {
+                font-size: @head-xxl;
+                padding: 122px 0;
+            }
+            img {
+                display: inline;
+                position: absolute;
+                width: 300px;
+                left: 0;
+                top: 66px;
+            }
+        }
+    }
 }

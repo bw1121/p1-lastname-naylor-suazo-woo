@@ -1,7 +1,6 @@
 @import "mixins";
 
 // Global
-
 h1, h2, h3, h4 {
     .headlines();
 }
@@ -11,7 +10,6 @@ p {
 }
 
 // Nav
-
 .navbar {
     box-shadow: 2px 2px 4px @lightgray;
     text-align: @center;
@@ -28,7 +26,7 @@ p {
 
         @media (min-width: 991px) {
             border-bottom: none;
-            font-size: @font-md;
+            font-size: @font-body;
         }
         &:last-child {
             border-bottom: none;
@@ -38,4 +36,10 @@ p {
             .emphasize();
         }
     }
+}
+
+//Hero
+.bg-grooming {
+    background-image: url("../img/hero-bg-grooming.png");
+    .hero();
 }

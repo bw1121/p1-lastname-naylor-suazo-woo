@@ -1,3 +1,5 @@
+/*body fonts sizes */
+/*headline fonts sizes */
 .headlines {
   font-family: all-round-gothic, sans-serif;
   font-weight: bold;
@@ -9,6 +11,51 @@
 .emphasize {
   color: #22293d !important;
   font-weight: 800;
+}
+.hero {
+  height: 150px;
+  text-align: center;
+  background-size: cover;
+  padding: 0;
+}
+.hero .container {
+  height: inherit;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  padding: 51px 0;
+  margin: 0;
+}
+.hero img {
+  display: none;
+}
+@media (min-width: 768px) {
+  .hero {
+    height: 200px;
+  }
+  .hero h1 {
+    font-size: 3.4rem;
+    padding: 67.5px 0;
+  }
+}
+@media (min-width: 991px) {
+  .hero {
+    height: 320px;
+  }
+  .hero .container {
+    position: relative;
+  }
+  .hero .container h1 {
+    font-size: 4rem;
+    padding: 122px 0;
+  }
+  .hero .container img {
+    display: inline;
+    position: absolute;
+    width: 300px;
+    left: 0;
+    top: 66px;
+  }
 }
 h1,
 h2,
@@ -52,4 +99,50 @@ p {
   font-weight: normal;
   color: #22293d !important;
   font-weight: 800;
+}
+.bg-grooming {
+  background-image: url("../img/hero-bg-grooming.png");
+  height: 150px;
+  text-align: center;
+  background-size: cover;
+  padding: 0;
+}
+.bg-grooming .container {
+  height: inherit;
+}
+.bg-grooming h1 {
+  font-size: 2.5rem;
+  padding: 51px 0;
+  margin: 0;
+}
+.bg-grooming img {
+  display: none;
+}
+@media (min-width: 768px) {
+  .bg-grooming {
+    height: 200px;
+  }
+  .bg-grooming h1 {
+    font-size: 3.4rem;
+    padding: 67.5px 0;
+  }
+}
+@media (min-width: 991px) {
+  .bg-grooming {
+    height: 320px;
+  }
+  .bg-grooming .container {
+    position: relative;
+  }
+  .bg-grooming .container h1 {
+    font-size: 4rem;
+    padding: 122px 0;
+  }
+  .bg-grooming .container img {
+    display: inline;
+    position: absolute;
+    width: 300px;
+    left: 0;
+    top: 66px;
+  }
 }
