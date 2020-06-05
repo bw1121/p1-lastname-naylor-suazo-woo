@@ -116,9 +116,11 @@ p {
   color: #22293d;
 }
 .navbar {
-  -webkit-box-shadow: 2px 2px 4px #f7f7f7;
-          box-shadow: 2px 2px 4px #f7f7f7;
+  -webkit-box-shadow: 2px 2px #f7f7f7;
+          box-shadow: 2px 2px #f7f7f7;
   text-align: center;
+  background-color: white;
+  z-index: 1000000;
 }
 .navbar .logo {
   height: 2.5rem;
