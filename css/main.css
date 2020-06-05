@@ -57,6 +57,17 @@
     top: 66px;
   }
 }
+.cards {
+  border: 1px solid #22293d;
+  border-radius: 8px;
+  padding: 1.5rem;
+}
+.buttons {
+  border: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: 1rem 0;
+}
 h1,
 h2,
 h3,
@@ -64,9 +75,45 @@ h4 {
   font-family: all-round-gothic, sans-serif;
   font-weight: bold;
 }
+h3 {
+  font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+  h3 {
+    font-size: 2.5rem;
+  }
+}
+h5 {
+  font-family: nanum-gothic, sans-serif;
+  font-weight: 800;
+}
 p {
   font-family: nanum-gothic, sans-serif;
   font-weight: normal;
+}
+.btn-primary {
+  border: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: 1rem 0;
+  background-color: #cf6060;
+}
+.btn-primary:hover {
+  background-color: white;
+  border: 1px solid #cf6060;
+  color: #cf6060;
+}
+.btn-secondary {
+  border: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin: 1rem 0;
+  background-color: #22293d;
+}
+.btn-secondary:hover {
+  background-color: #7dc6eb;
+  border: 1px solid #22293d;
+  color: #22293d;
 }
 .navbar {
   -webkit-box-shadow: 2px 2px 4px #f7f7f7;
@@ -145,4 +192,19 @@ p {
     left: 0;
     top: 66px;
   }
+}
+main {
+  padding: 1.5rem 0;
+}
+main .service-card {
+  border: 1px solid #22293d;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: auto;
+}
+main .service-card h3 {
+  text-align: center;
+}
+main .service-card .btn {
+  text-align: center;
 }

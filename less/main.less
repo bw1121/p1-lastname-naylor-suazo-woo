@@ -5,8 +5,41 @@ h1, h2, h3, h4 {
     .headlines();
 }
 
+h3 {
+    font-size: @head-md;
+    @media (min-width: 768px) {
+        font-size: @head-lg;
+    }
+}
+
+h5 {
+    font-family: @body;
+    font-weight: @extrabold;
+}
+
 p {
     .body-copy();
+}
+
+//Buttons 
+.btn-primary {
+    .buttons();
+    background-color: @red;
+    &:hover {
+        background-color: white;
+        border: @border-red;
+        color: @red;
+    }
+}
+
+.btn-secondary {
+    .buttons();
+    background-color: @blackblue;
+    &:hover {
+        background-color: @blue;
+        border: @border-blue;
+        color: @blackblue;
+    }
 }
 
 // Nav
@@ -38,8 +71,23 @@ p {
     }
 }
 
-//Hero
+// Hero
 .bg-grooming {
     background-image: url("../img/hero-bg-grooming.png");
     .hero();
+}
+
+// Subpages - Grooming
+main {
+    padding: @pad-sm 0;
+    .service-card {
+        .cards();
+        margin: auto;
+        h3 {
+            text-align: @center;
+        }
+        .btn {
+            text-align: @center;
+        }
+    }
 }
