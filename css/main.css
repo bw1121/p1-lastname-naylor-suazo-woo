@@ -164,6 +164,43 @@ p {
   color: #22293d !important;
   font-weight: 800;
 }
+footer {
+  background-color: #22293d;
+  color: white;
+  text-align: center;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+footer .row {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+footer .row .col {
+  padding-bottom: 1.5rem;
+}
+footer .row .col h4 {
+  color: #f7f7f7;
+}
+footer .row .col p {
+  color: white;
+  font-weight: 800;
+}
+footer .row .col a {
+  color: white;
+  font-weight: 800;
+}
+footer .row .col a:hover {
+  text-decoration: underline;
+  color: white;
+}
+footer .row .col a img {
+  width: 40px;
+  margin: 0 4px 10px;
+}
+footer .row .col .logo-footer {
+  width: 70%;
+}
 .bg-grooming {
   background-image: url("../img/hero-bg-grooming.png");
   height: 150px;

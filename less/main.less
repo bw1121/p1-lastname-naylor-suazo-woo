@@ -74,6 +74,44 @@ p {
     }
 }
 
+// Footer 
+footer {
+    background-color: @blackblue;
+    color: white;
+    text-align: @center;
+    padding-top: @pad-md;
+    padding-bottom: @pad-md;
+    .row {
+        justify-content: center;
+        .col {
+            padding-bottom: @pad-sm;
+            h4 {
+                color: @lightgray;
+            }
+            p {
+                color: white;
+                font-weight: @extrabold;
+            }
+            a {
+                color: white;
+                font-weight: @extrabold;
+                &:hover {
+                    text-decoration: underline;
+                    color: white;
+                }
+                img {
+                    width: 40px;
+                    margin: 0 4px 10px;
+                }
+            }
+            .logo-footer {
+                width: 70%;
+            }
+        }
+        
+    }
+}
+
 // Hero
 .bg-grooming {
     background-image: url("../img/hero-bg-grooming.png");
