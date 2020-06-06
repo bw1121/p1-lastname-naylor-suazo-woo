@@ -76,8 +76,13 @@
 .buttons {
   border: none;
   text-transform: uppercase;
+  font-size: 1.2rem;
   font-weight: 800;
   margin: 1rem 0;
+}
+.buttons:hover {
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 h1,
 h2,
@@ -108,9 +113,14 @@ p {
 .btn-primary {
   border: none;
   text-transform: uppercase;
+  font-size: 1.2rem;
   font-weight: 800;
   margin: 1rem 0;
   background-color: #cf6060;
+}
+.btn-primary:hover {
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 .btn-primary:hover {
   background-color: white;
@@ -120,9 +130,14 @@ p {
 .btn-secondary {
   border: none;
   text-transform: uppercase;
+  font-size: 1.2rem;
   font-weight: 800;
   margin: 1rem 0;
   background-color: #22293d;
+}
+.btn-secondary:hover {
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
 }
 .btn-secondary:hover {
   background-color: #7dc6eb;
@@ -148,12 +163,6 @@ p {
   padding: 1rem 1.5rem !important;
   border-bottom: 1px solid #f7f7f7;
 }
-@media (min-width: 991px) {
-  .navbar .nav-item {
-    border-bottom: none;
-    font-size: 1.2rem;
-  }
-}
 .navbar .nav-item:last-child {
   border-bottom: none;
 }
@@ -163,6 +172,18 @@ p {
   color: #22293d;
   color: #22293d !important;
   font-weight: 800;
+}
+.navbar .nav-item .nav-link:hover {
+  background-color: #7dc6eb;
+  border-radius: 8px;
+  -webkit-transition-duration: 0.4s;
+          transition-duration: 0.4s;
+}
+@media (min-width: 991px) {
+  .navbar .nav-item {
+    border-bottom: none;
+    font-size: 1.2rem;
+  }
 }
 footer {
   background-color: #22293d;

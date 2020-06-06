@@ -59,17 +59,21 @@ p {
     .nav-item {
         padding: @pad-xs @pad-sm !important;
         border-bottom: @border-gray;
-
-        @media (min-width: 991px) {
-            border-bottom: none;
-            font-size: @font-body;
-        }
         &:last-child {
             border-bottom: none;
         }
         .nav-link {
             .body-copy();
             .emphasize();
+            &:hover {
+                background-color: @blue;
+                border-radius: 8px;
+                transition-duration: @transition;
+            }
+        }
+        @media (min-width: 991px) {
+            border-bottom: none;
+            font-size: @font-body;
         }
     }
 }
