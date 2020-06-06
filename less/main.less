@@ -129,13 +129,12 @@ main {
         .links();
     }
     .service-card {
-        .cards();
         margin: 0 auto @pad-sm;
         h3 {
             text-align: @center;
         }
-        .btn {
-            text-align: @center;
+        @media (min-width: 576px) {
+            .cards();
         }
     }
 }
