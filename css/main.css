@@ -70,10 +70,28 @@
     top: 66px;
   }
 }
-.cards {
-  border: 1px solid #22293d;
-  border-radius: 8px;
-  padding: 1.5rem;
+.cards h3 {
+  text-align: center;
+  background-color: #22293d;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px 8px 0 0;
+}
+.cards .card-content {
+  padding: 0.5rem;
+}
+@media (min-width: 576px) {
+  .cards {
+    border: 1px solid #22293d;
+    border-radius: 8px;
+    padding: 0 0 1.5rem;
+  }
+  .cards h3 {
+    padding: 1.5rem;
+  }
+  .cards .card-content {
+    padding: 1.5rem 1.5rem 0;
+  }
 }
 .buttons {
   border: none;
@@ -286,13 +304,37 @@ main a:hover {
 main .service-card {
   margin: 0 auto 1.5rem;
 }
+main .service-card .center {
+  text-align: center;
+}
 main .service-card h3 {
   text-align: center;
+  background-color: #22293d;
+  color: white;
+  padding: 1rem;
+  border-radius: 8px 8px 0 0;
+}
+main .service-card .card-content {
+  padding: 0.5rem;
 }
 @media (min-width: 576px) {
   main .service-card {
     border: 1px solid #22293d;
     border-radius: 8px;
+    padding: 0 0 1.5rem;
+  }
+  main .service-card h3 {
     padding: 1.5rem;
+  }
+  main .service-card .card-content {
+    padding: 1.5rem 1.5rem 0;
+  }
+}
+main .service-card .card-content {
+  border-bottom: 1px solid #22293d;
+}
+@media (min-width: 576px) {
+  main .service-card .card-content {
+    border-bottom: 0;
   }
 }

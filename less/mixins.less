@@ -76,9 +76,28 @@
 
 // Cards
 .cards {
-    border: @border-blue;
-    border-radius: 8px;
-    padding: @pad-sm;
+    h3 {
+        text-align: center;
+        background-color: @blackblue;
+        color: white;
+        padding: @pad-xs;
+        border-radius: 8px 8px 0 0;
+    }
+    .card-content {
+        padding: @pad-xxs;
+    }
+    @media (min-width: 576px) {
+        border: @border-blue;
+        border-radius: 8px;
+        padding: 0 0 @pad-sm;
+        h3 {
+            padding: @pad-sm;
+        }
+        .card-content {
+            padding: @pad-sm @pad-sm 0;
+        }
+    }
+    
 }
 
 //Buttons 

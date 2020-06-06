@@ -130,11 +130,15 @@ main {
     }
     .service-card {
         margin: 0 auto @pad-sm;
-        h3 {
+        .center {
             text-align: @center;
         }
-        @media (min-width: 576px) {
-            .cards();
+        .cards();
+        .card-content {
+            border-bottom: @border-blue;
+            @media (min-width: 576px) {
+                border-bottom: 0;
+            }
         }
     }
 }
