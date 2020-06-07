@@ -151,3 +151,33 @@ main {
         }
     }
 }
+
+// - Adoptions
+.centered-call-to-action {
+    padding: @pad-lg;
+}
+
+.search-area {
+    color: @lightgray;
+    background-image: url("../img/magnifying-glass.png");
+    .hero();
+    padding: @pad-md;
+    h2 {
+        color: @lightgray;
+    }
+    .search-label {
+        font-size: @head-md;
+    }
+    @media(min-width:320px){
+        h2 {
+            font-size: 1.5rem;
+        }
+        height: 320px!important;
+    }
+    @media(min-width: 768px){
+        h2 {
+            font-size: 2rem;
+        }
+        height: 250px!important;
+    }
+}
