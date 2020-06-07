@@ -468,3 +468,18 @@ main .service-card .card-content {
     font-size: 2rem;
   }
 }
+.progress-area {
+  padding: 1.5rem;
+  margin: auto;
+  padding-bottom: 2.5rem;
+}
+.progress {
+  height: 20px;
+  margin: auto;
+}
+.progress-bar {
+  background-color: #cf6060;
+}
+.progress-text {
+  padding-top: 2.5rem;
+}
