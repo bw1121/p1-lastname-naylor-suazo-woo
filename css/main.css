@@ -101,8 +101,7 @@
   margin: 1rem 0;
 }
 .buttons:hover {
-  -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 h1,
 h2,
@@ -139,8 +138,7 @@ p {
   background-color: #cf6060;
 }
 .btn-primary:hover {
-  -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 .btn-primary:hover {
   background-color: white;
@@ -156,8 +154,7 @@ p {
   background-color: #22293d;
 }
 .btn-secondary:hover {
-  -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
+  transition-duration: 0.4s;
 }
 .btn-secondary:hover {
   background-color: #7dc6eb;
@@ -165,8 +162,7 @@ p {
   color: #22293d;
 }
 .navbar {
-  -webkit-box-shadow: 2px 2px #f7f7f7;
-          box-shadow: 2px 2px #f7f7f7;
+  box-shadow: 2px 2px #f7f7f7;
   text-align: center;
   background-color: white;
   z-index: 1000000;
@@ -212,9 +208,7 @@ footer {
   padding-bottom: 2.5rem;
 }
 footer .row {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
 }
 footer .row .col {
   padding-bottom: 1.5rem;
