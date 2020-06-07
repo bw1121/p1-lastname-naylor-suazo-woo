@@ -5,6 +5,12 @@
   font-weight: bold;
   color: #22293d;
 }
+.headlines-light-gray {
+  /*For dark background hero imgs*/
+  font-family: all-round-gothic, sans-serif;
+  font-weight: bold;
+  color: #f7f7f7;
+}
 .body-copy {
   font-family: nanum-gothic, sans-serif;
   font-weight: normal;
@@ -110,6 +116,13 @@ h4 {
   font-family: all-round-gothic, sans-serif;
   font-weight: bold;
   color: #22293d;
+}
+.h1-lightgray {
+  /*For dark hero imgs*/
+  /*For dark background hero imgs*/
+  font-family: all-round-gothic, sans-serif;
+  font-weight: bold;
+  color: #f7f7f7;
 }
 h3 {
   font-size: 1.5rem;
@@ -283,6 +296,54 @@ footer .row .col .logo-footer {
     top: 66px;
   }
 }
+.bg-adoption {
+  background-image: url("../img/hero-bg-adoption.png");
+  height: 150px;
+  text-align: center;
+  background-size: cover;
+  padding: 0;
+  border-radius: 0;
+  margin-bottom: 1rem;
+}
+.bg-adoption .container {
+  height: inherit;
+}
+.bg-adoption h1 {
+  font-size: 2.5rem;
+  padding: 51px 0;
+  margin: 0;
+}
+.bg-adoption img {
+  display: none;
+}
+@media (min-width: 768px) {
+  .bg-adoption {
+    height: 200px;
+  }
+  .bg-adoption h1 {
+    font-size: 3.4rem;
+    padding: 67.5px 0;
+  }
+}
+@media (min-width: 991px) {
+  .bg-adoption {
+    height: 320px;
+  }
+  .bg-adoption .container {
+    position: relative;
+  }
+  .bg-adoption .container h1 {
+    font-size: 4rem;
+    padding: 122px 0;
+  }
+  .bg-adoption .container img {
+    display: inline;
+    position: absolute;
+    width: 300px;
+    left: 0;
+    top: 66px;
+  }
+}
 main {
   padding: 1.5rem 0;
 }
@@ -331,4 +392,94 @@ main .service-card .card-content {
   main .service-card .card-content {
     border-bottom: 0;
   }
+}
+.centered-call-to-action {
+  padding: 3.5rem;
+}
+.search-area {
+  color: #f7f7f7;
+  background-image: url("../img/magnifying-glass.png");
+  height: 150px;
+  text-align: center;
+  background-size: cover;
+  padding: 0;
+  border-radius: 0;
+  margin-bottom: 1rem;
+  padding: 2.5rem;
+}
+.search-area .container {
+  height: inherit;
+}
+.search-area h1 {
+  font-size: 2.5rem;
+  padding: 51px 0;
+  margin: 0;
+}
+.search-area img {
+  display: none;
+}
+@media (min-width: 768px) {
+  .search-area {
+    height: 200px;
+  }
+  .search-area h1 {
+    font-size: 3.4rem;
+    padding: 67.5px 0;
+  }
+}
+@media (min-width: 991px) {
+  .search-area {
+    height: 320px;
+  }
+  .search-area .container {
+    position: relative;
+  }
+  .search-area .container h1 {
+    font-size: 4rem;
+    padding: 122px 0;
+  }
+  .search-area .container img {
+    display: inline;
+    position: absolute;
+    width: 300px;
+    left: 0;
+    top: 66px;
+  }
+}
+.search-area h2 {
+  color: #f7f7f7;
+}
+.search-area .search-label {
+  font-size: 1.5rem;
+}
+@media (min-width: 320px) {
+  .search-area {
+    height: 320px!important;
+  }
+  .search-area h2 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 768px) {
+  .search-area {
+    height: 250px!important;
+  }
+  .search-area h2 {
+    font-size: 2rem;
+  }
+}
+.progress-area {
+  padding: 1.5rem;
+  margin: auto;
+  padding-bottom: 2.5rem;
+}
+.progress {
+  height: 20px;
+  margin: auto;
+}
+.progress-bar {
+  background-color: #cf6060;
+}
+.progress-text {
+  padding-top: 2.5rem;
 }

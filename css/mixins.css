@@ -5,6 +5,12 @@
   font-weight: bold;
   color: #22293d;
 }
+.headlines-light-gray {
+  /*For dark background hero imgs*/
+  font-family: all-round-gothic, sans-serif;
+  font-weight: bold;
+  color: #f7f7f7;
+}
 .body-copy {
   font-family: nanum-gothic, sans-serif;
   font-weight: normal;
