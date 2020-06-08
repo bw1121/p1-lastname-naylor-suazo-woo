@@ -138,7 +138,6 @@ main {
         .links();
     }
     .service-card {
-        margin: 0 auto @pad-sm;
         .center {
             text-align: @center;
         }
@@ -153,6 +152,15 @@ main {
 }
 
 // - Adoptions
+.adoption-card {
+    .cards();
+    @media (min-width: 768px) {
+        .card-group {
+            padding: @pad-xs;
+        }
+    }
+}
+
 .centered-call-to-action {
     padding: @pad-lg;
 }
@@ -186,15 +194,13 @@ main {
     padding: @pad-sm;
     margin: auto;
     padding-bottom: @pad-md;
-}
-
-.progress {
-    height: 20px;
-    margin: auto;
-}
-
-.progress-bar {
-    background-color: @red;
+    .progress {
+        height: 20px;
+        margin: auto;
+        .progress-bar {
+            background-color: @red;
+        }
+    }
 }
 
 .progress-text {
