@@ -69,7 +69,7 @@
     padding: 122px 0;
   }
   .hero .container img {
-    display: inline;
+    display: inline-block;
     position: absolute;
     width: 300px;
     left: 0;
@@ -298,7 +298,7 @@ footer .row .col .logo-footer {
     padding: 122px 0;
   }
   .bg-grooming .container img {
-    display: inline;
+    display: inline-block;
     position: absolute;
     width: 300px;
     left: 0;
@@ -346,7 +346,7 @@ footer .row .col .logo-footer {
     padding: 122px 0;
   }
   .bg-adoption .container img {
-    display: inline;
+    display: inline-block;
     position: absolute;
     width: 300px;
     left: 0;
@@ -479,7 +479,7 @@ main .service-card .card-content {
     padding: 122px 0;
   }
   .search-area .container img {
-    display: inline;
+    display: inline-block;
     position: absolute;
     width: 300px;
     left: 0;
