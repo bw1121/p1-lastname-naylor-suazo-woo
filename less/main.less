@@ -136,9 +136,48 @@ footer {
     .hero();
 }
 
-// Homepage
-.home-services figure {
-  text-align: center;
+//Homepage
+.home-content {
+  .welcome-message {
+    text-align: center;
+    margin-bottom: 10px;
+    margin-bottom: 35px;
+    h2 {
+      font-size: @head-lg;
+      padding-bottom: 10px;
+    }
+    @media (min-width: 450px) {
+      h2 {
+        font-size: @head-xl;
+      }
+      h5 {
+        font-size: @head-md;
+      }
+    }
+    @media (min-width: 700px) {
+      h2 {
+        font-size: @head-xxl;
+      }
+      h5 {
+        font-size: 2rem;
+      }
+    }
+  }
+  .home-services {
+    figure {
+      text-align: center;
+      padding: 10px 0;
+    }
+    a {
+      text-decoration: none;
+    }
+    figcaption {
+      padding-top: 20px;
+    }
+    h4 {
+      font-size: 2rem;
+    }
+  }
 }
 
 // Subpages - Grooming
