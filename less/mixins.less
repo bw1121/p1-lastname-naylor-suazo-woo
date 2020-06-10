@@ -195,3 +195,21 @@
         transition-duration: @transition;
     }
 }
+
+// Javascript Changing Text Animation
+.text-js {
+  display: none;
+  color: @lightgray;
+  font-family: @body;
+  font-size: @head-md;
+  text-align: center;
+  height: 140px;
+  border-radius: 8px;
+  margin: 50px;
+  padding: 20px;
+  transition: @transition-in-out;
+  @media (min-width: 992px) {
+    .text {
+      display: block;
+    }
+  }
