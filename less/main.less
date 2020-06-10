@@ -197,11 +197,22 @@ footer {
     }
   }
   .text {
-	  background-color: @gray;
+    display: none;
+    color: @lightgray;
+    font-family: @body;
+	  font-size: @head-md;
+    text-align: center;
+    height: 140px;
     border-radius: 8px;
 	  margin: 50px;
 	  padding: 20px;
-}
+    transition: all .2s ease-in-out;
+  }
+  @media (min-width: 992px) {
+    .text {
+      display: block;
+    }
+  }
 }
 
 // Subpages - Grooming
