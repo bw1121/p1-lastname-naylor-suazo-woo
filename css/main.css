@@ -533,6 +533,54 @@ footer .row .col .logo-footer {
     top: 66px;
   }
 }
+.bg-boarding {
+  background-image: url("../img/hero-bg-boarding.png");
+  height: 150px;
+  text-align: center;
+  background-size: cover;
+  padding: 0;
+  border-radius: 0;
+  margin-bottom: 1rem;
+}
+.bg-boarding .container {
+  height: inherit;
+}
+.bg-boarding h1 {
+  font-size: 2.5rem;
+  padding: 51px 0;
+  margin: 0;
+}
+.bg-boarding img {
+  display: none;
+}
+@media (min-width: 768px) {
+  .bg-boarding {
+    height: 200px;
+  }
+  .bg-boarding h1 {
+    font-size: 3.4rem;
+    padding: 67.5px 0;
+  }
+}
+@media (min-width: 991px) {
+  .bg-boarding {
+    height: 320px;
+  }
+  .bg-boarding .container {
+    position: relative;
+  }
+  .bg-boarding .container h1 {
+    font-size: 4rem;
+    padding: 122px 0;
+  }
+  .bg-boarding .container img {
+    display: inline-block;
+    position: absolute;
+    width: 300px;
+    left: 0;
+    top: 66px;
+  }
+}
 .home-content .welcome-message {
   text-align: center;
   margin-bottom: 10px;
@@ -652,6 +700,67 @@ main .service-card .card-content {
   main .service-card .card-content {
     border-bottom: 0;
   }
+}
+@media (min-width: 320px) {
+  .boarding-fig {
+    padding-left: 0;
+  }
+}
+@media (min-width: 1024px) {
+  .boarding-fig {
+    padding-left: 2.5rem;
+  }
+}
+@media (min-width: 320px) {
+  .p-boarding {
+    padding: 0 1.5rem;
+    font-size: 1rem;
+  }
+}
+@media (min-width: 768px) {
+  .p-boarding {
+    padding: 1.5rem;
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 769px) {
+  .p-boarding {
+    padding: 3.5rem;
+  }
+}
+@media (min-width: 320px) {
+  .article-white {
+    padding: 1.5rem;
+    margin: 0;
+  }
+}
+@media (min-width: 768px) {
+  .article-white {
+    padding: 1.5rem 0;
+    margin: 2.5rem 0;
+  }
+}
+.article-darkgray {
+  background-color: #6a6f7c;
+}
+@media (min-width: 320px) {
+  .article-darkgray {
+    padding: 1.5rem;
+    margin: 0;
+  }
+}
+@media (min-width: 768px) {
+  .article-darkgray {
+    padding: pad-sm 0;
+    margin: 4.5rem 0;
+  }
+}
+.lightgray-text {
+  color: #f7f7f7;
+}
+.span-red {
+  color: #cf6060;
+  font-size: 1.5rem;
 }
 .adoption-card {
   margin: 0 auto 1.5rem;
