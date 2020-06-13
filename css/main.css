@@ -701,6 +701,18 @@ main .service-card .card-content {
     border-bottom: 0;
   }
 }
+.boarding-fig {
+  padding-left: 2.5rem;
+}
+.article-white {
+  margin: 2.5rem 0;
+  padding: 1.5rem 0;
+}
+.article-darkgray {
+  background-color: #6a6f7c;
+  padding: 5.5rem 0;
+  margin: 4.5rem 0;
+}
 .adoption-card {
   margin: 0 auto 1.5rem;
 }
