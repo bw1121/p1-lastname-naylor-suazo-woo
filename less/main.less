@@ -233,19 +233,60 @@ main {
 
 // Boarding
 .boarding-fig {
-    padding-left: @pad-md;
+    @media (min-width: 320px) {
+        padding-left: 0;
+    }
+    @media (min-width: 1024px) {
+        padding-left: @pad-md;
+    }
 }
 
+.p-boarding {
+    @media (min-width: 320px) {
+        padding: 0 @pad-sm;
+        font-size: 1rem;
+    }
+    @media (min-width: 768px) {
+        padding: @pad-sm;
+        font-size: 1.5rem;
+    }
+    @media (min-width: 769px) {
+        padding: @pad-lg;
+    }
+  }
+
 .article-white {
-    margin: @marg-md 0;
-    padding: @pad-sm 0;
+    @media (min-width: 320px) {
+        padding: @pad-sm;
+        margin: 0;
+    }
+    @media (min-width: 768px) {
+        padding: @pad-sm 0;
+        margin: @marg-md 0;
+    }
 }
 
 .article-darkgray { 
     background-color: @gray;
-    padding: @pad-xxl 0;
-    margin: @marg-xl 0;
+    @media (min-width: 320px) {
+        padding: @pad-sm;
+        margin: 0;
+    }
+    @media (min-width: 768px) {
+        padding: pad-sm 0;
+        margin: @marg-xl 0;
+    }
 }
+
+.lightgray-text{
+    color: @lightgray;
+  }
+
+.span-red {
+    color: @red;
+    font-size: @head-md; 
+}
+
 
 // Adoption
 .adoption-card {
@@ -272,7 +313,7 @@ main {
     .search-label {
         font-size: @head-md;
     }
-    @media(min-width:320px){
+    @media(min-width: 320px){
         h2 {
             font-size: 1.5rem;
         }
