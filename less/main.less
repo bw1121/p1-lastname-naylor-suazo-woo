@@ -5,10 +5,6 @@ h1, h2, h3, h4 {
     .headlines();
 }
 
-.h1-lightgray {  /*For dark hero imgs*/
-    .headlines-light-gray() ;
-}
-
 h3 {
     font-size: @head-md;
     @media (min-width: 768px) {
@@ -124,6 +120,9 @@ footer {
 .bg-home {
   background-image: url("../img/hero-img-home.jpg");
   .home-hero();
+  h1 {
+    .headlines-light-gray();
+    }
 }
 
 .bg-grooming {
@@ -134,11 +133,22 @@ footer {
 .bg-adoption {
     background-image: url("../img/hero-bg-adoption.png");
     .hero();
+    h1 {
+        .headlines-light-gray();
+    }
 }
 
 .bg-boarding {
     background-image: url("../img/hero-bg-boarding.png");
     .hero();
+}
+
+.bg-contact {
+    background-image: url("../img/hero-bg-contact.png");
+    .hero();
+    h1 {
+        .headlines-light-gray();
+    }
 }
 
 //Homepage
