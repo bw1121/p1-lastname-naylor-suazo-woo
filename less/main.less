@@ -27,7 +27,7 @@ p {
     .buttons();
     background-color: @red;
     &:hover, &:active, &:focus {
-        background-color: white !important;
+        background-color: @lightgray !important;
         border: @border-red !important;
         color: @red !important;
     }
@@ -71,27 +71,27 @@ p {
 // Footer
 footer {
     background-color: @blackblue;
-    color: white;
+    color: @lightgray;
     text-align: @center;
     padding-top: @pad-md;
     padding-bottom: @pad-md;
     .row {
-        justify-content: center;
+        justify-content: @center;
         .col {
             padding-bottom: @pad-sm;
             h4 {
                 color: @lightgray;
             }
             p {
-                color: white;
+                color: @lightgray;
                 font-weight: @extrabold;
             }
             a {
-                color: white;
+                color: @lightgray;
                 font-weight: @extrabold;
                 &:hover {
                     text-decoration: underline;
-                    color: white;
+                    color: @lightgray
                 }
                 img {
                     width: 40px;
@@ -144,7 +144,7 @@ footer {
 //Homepage
 .home-content {
   .welcome-message {
-    text-align: center;
+    text-align: @center;
     margin-bottom: 10px;
     margin-bottom: 35px;
     h2 {
@@ -170,7 +170,7 @@ footer {
   }
   .home-services {
     figure {
-      text-align: center;
+      text-align: @center;
       padding: 10px 0;
     }
     a {

@@ -165,7 +165,7 @@
 .cards h3 {
   text-align: center;
   background-color: #22293d;
-  color: white;
+  color: #f7f7f7;
   padding: 1rem;
   border-radius: 8px 8px 0 0;
 }
@@ -250,7 +250,7 @@ p {
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:focus {
-  background-color: white !important;
+  background-color: #f7f7f7 !important;
   border: 1px solid #cf6060 !important;
   color: #cf6060 !important;
 }
@@ -296,7 +296,7 @@ p {
 }
 footer {
   background-color: #22293d;
-  color: white;
+  color: #f7f7f7;
   text-align: center;
   padding-top: 2.5rem;
   padding-bottom: 2.5rem;
@@ -313,16 +313,16 @@ footer .row .col h4 {
   color: #f7f7f7;
 }
 footer .row .col p {
-  color: white;
+  color: #f7f7f7;
   font-weight: 800;
 }
 footer .row .col a {
-  color: white;
+  color: #f7f7f7;
   font-weight: 800;
 }
 footer .row .col a:hover {
   text-decoration: underline;
-  color: white;
+  color: #f7f7f7;
 }
 footer .row .col a img {
   width: 40px;
@@ -717,7 +717,7 @@ main .service-card .center {
 main .service-card h3 {
   text-align: center;
   background-color: #22293d;
-  color: white;
+  color: #f7f7f7;
   padding: 1rem;
   border-radius: 8px 8px 0 0;
 }
@@ -815,7 +815,7 @@ main .service-card .card-content {
 .adoption-card h3 {
   text-align: center;
   background-color: #22293d;
-  color: white;
+  color: #f7f7f7;
   padding: 1rem;
   border-radius: 8px 8px 0 0;
 }
