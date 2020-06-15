@@ -952,6 +952,9 @@ form .form-row {
 form .form-row label {
   font-weight: 800;
 }
+form .form-row label .required {
+  color: #cf6060;
+}
 form .form-row .form-control,
 form .form-row .custom-select {
   border: 1px solid rgba(34, 41, 61, 0.35);
