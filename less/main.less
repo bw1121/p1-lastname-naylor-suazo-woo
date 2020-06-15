@@ -353,3 +353,24 @@ main {
 .progress-text {
     padding-top: @pad-md;
 }
+
+//Contact
+form {
+    padding-top: @pad-sm;
+    padding-bottom: @pad-xxl;
+    .form-row {
+        padding-bottom: @pad-xxs;
+        label {
+            font-weight: @extrabold;
+        }
+        .form-control, .custom-select {
+            border: 1px solid rgba(34, 41, 61, 0.35); //Blackblue with opacity
+            border-radius: 3px;
+            color: @gray;
+        }
+        .custom-radio {
+            padding-top: @pad-xxs;
+            padding-left: @pad-md;
+        }
+    } 
+}

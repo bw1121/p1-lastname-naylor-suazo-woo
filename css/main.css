@@ -942,3 +942,23 @@ main .service-card .card-content {
 .progress-text {
   padding-top: 2.5rem;
 }
+form {
+  padding-top: 1.5rem;
+  padding-bottom: 5.5rem;
+}
+form .form-row {
+  padding-bottom: 0.5rem;
+}
+form .form-row label {
+  font-weight: 800;
+}
+form .form-row .form-control,
+form .form-row .custom-select {
+  border: 1px solid rgba(34, 41, 61, 0.35);
+  border-radius: 3px;
+  color: #6a6f7c;
+}
+form .form-row .custom-radio {
+  padding-top: 0.5rem;
+  padding-left: 2.5rem;
+}
