@@ -165,14 +165,14 @@
         background-color: @blackblue;
         color: white;
         padding: @pad-xs;
-        border-radius: 8px 8px 0 0;
+        border-radius: @rounded @rounded 0 0;
     }
     .card-content {
         padding: @pad-xxs;
     }
     @media (min-width: 576px) {
         border: @border-blue;
-        border-radius: 8px;
+        border-radius: @rounded;
         padding: 0 0 @pad-sm;
         h3 {
             padding: @pad-sm;
@@ -204,7 +204,7 @@
   font-size: @head-md;
   text-align: center;
   height: 140px;
-  border-radius: 8px;
+  border-radius: @rounded;
   margin: 50px;
   padding: 20px;
   transition: @transition-in-out;
