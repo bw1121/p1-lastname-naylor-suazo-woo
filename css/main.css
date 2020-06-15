@@ -373,6 +373,10 @@ footer .row .col .logo-footer {
   padding: 50px 0 20px 0;
   margin: 0;
 }
+.bg-home .container h1 .hero-subhead {
+  padding-top: 1.5rem;
+  display: block;
+}
 .bg-home .container img {
   display: none;
 }
