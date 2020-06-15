@@ -23,13 +23,7 @@ h2 {
 }
 
 h3 {
-    font-size: @head-md;
-    @media (min-width: 768px) {
-        font-size: @head-lg;
-    }
-}
-
-h5 {
+    font-size: @head-sm;
     font-family: @body;
     font-weight: @extrabold;
     color: @blackblue;
@@ -122,45 +116,10 @@ footer {
     }
 }
 
-// Hero
+// Hero- home
 .bg-home {
   background-image: url("../img/hero-img-home.jpg");
-  .home-hero();
-  h1 {
-    .headlines-light-gray();
-    }
-}
-
-.bg-grooming {
-    background-image: url("../img/hero-bg-grooming.png");
-    .hero();
-}
-
-.bg-adoption {
-    background-image: url("../img/hero-bg-adoption.png");
-    .hero();
-    h1 {
-        .headlines-light-gray();
-    }
-}
-
-.bg-boarding {
-    background-image: url("../img/hero-bg-boarding.png");
-    .hero();
-}
-
-.bg-contact {
-    background-image: url("../img/hero-bg-contact.png");
-    .hero();
-    h1 {
-        .headlines-light-gray();
-    }
-}
-
-// Homepage hero style
-.home-hero {
-    .headlines-light-gray();
-    height: 300px;
+  height: 300px;
     text-align: right;
     background-size: cover;
     background-position: @center;
@@ -170,6 +129,7 @@ footer {
     .container {
         height: inherit;
         h1 {
+            .headlines-light-gray();
             padding: 50px 0 20px 0;
             margin: 0;
         }
@@ -177,9 +137,10 @@ footer {
             display: none;
         }
     }
-    @media (min-width: 333px) and (max-width: 353px) {
+    @media (min-width: 320px) and (max-width: 576px) {
       h1 {
         padding: 70px 0 20px 0;
+        font-size: @head-md;
       }
     }
     @media (min-width: 353px) {
@@ -215,31 +176,55 @@ footer {
         }
     }
 }
+//Heros - subpages
+.bg-grooming {
+    background-image: url("../img/hero-bg-grooming.png");
+    .hero();
+}
+
+.bg-adoption {
+    background-image: url("../img/hero-bg-adoption.png");
+    .hero();
+    h1 {
+        .headlines-light-gray();
+    }
+}
+
+.bg-boarding {
+    background-image: url("../img/hero-bg-boarding.png");
+    .hero();
+}
+
+.bg-contact {
+    background-image: url("../img/hero-bg-contact.png");
+    .hero();
+    h1 {
+        .headlines-light-gray();
+    }
+}
 
 //Homepage
 .home-content {
     .welcome-message {
-        text-align: @center;
-        margin-bottom: 10px;
-        margin-bottom: 35px;
+            text-align: @center;
+            margin-bottom: 10px;
+            margin-bottom: 35px;
         h2 {
-        font-size: @head-lg;
-        padding-bottom: 10px;
-        }
-        @media (min-width: 450px) {
-            h2 {
+            font-size: @head-lg;
+            padding-bottom: 10px;
+            @media (min-width: 450px) {
                 font-size: @head-xl;
             }
-            h5 {
-                font-size: @head-md;
-            }
-        }
-        @media (min-width: 700px) {
-            h2 {
+            @media (min-width: 700px) {
                 font-size: @head-xxl;
             }
-            h5 {
-                font-size: 2rem;
+        }
+        h3 {
+            @media (min-width: 450px) {
+                font-size: @head-md;
+            }
+            @media (min-width: 700px) {
+                font-size: @head-lg;
             }
         }
     }
@@ -247,33 +232,31 @@ footer {
         figure {
             text-align: @center;
             padding: 10px 0;
-        }
-        a {
-            text-decoration: none;
-        }
-        .pink:hover {
-            h4 {
-                color: @pink;
-                transition: @transition-in-out;
+            a {
+                text-decoration: none;
+                h4 {
+                    font-size: @head-lg;
+                    padding-top: 20px;
+                }
             }
-        }
-        .blue:hover {
-            h4 {
-                color: @blue;
-                transition: @transition-in-out;
+            .pink:hover {
+                h4 {
+                    color: @pink;
+                    transition: @transition-in-out;
+                }
             }
-        }
-        .red:hover {
-            h4 {
-                color: @red;
-                transition: @transition-in-out;
+            .blue:hover {
+                h4 {
+                    color: @blue;
+                    transition: @transition-in-out;
+                }
             }
-        }
-        figcaption {
-            padding-top: 20px;
-        }
-        h4 {
-            font-size: 2rem;
+            .red:hover {
+                h4 {
+                    color: @red;
+                    transition: @transition-in-out;
+                }
+            }
         }
     }
     .text {
