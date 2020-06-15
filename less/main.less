@@ -26,20 +26,10 @@ p {
 .btn-primary {
     .buttons();
     background-color: @red;
-    &:hover {
-        background-color: white;
-        border: @border-red;
-        color: @red;
-    }
-}
-
-.btn-secondary {
-    .buttons();
-    background-color: @blackblue;
-    &:hover {
-        background-color: @blue;
-        border: @border-blue;
-        color: @blackblue;
+    &:hover, &:active, &:focus {
+        background-color: white !important;
+        border: @border-red !important;
+        color: @red !important;
     }
 }
 

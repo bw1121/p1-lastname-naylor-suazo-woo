@@ -73,7 +73,7 @@
     position: absolute;
     width: 300px;
     left: 0;
-    top: 66px;
+    top: 67px;
   }
 }
 .home-hero {
@@ -247,27 +247,12 @@ p {
   -webkit-transition-duration: 0.4s;
           transition-duration: 0.4s;
 }
-.btn-primary:hover {
-  background-color: white;
-  border: 1px solid #cf6060;
-  color: #cf6060;
-}
-.btn-secondary {
-  border: none;
-  text-transform: uppercase;
-  font-size: 1.2rem;
-  font-weight: 800;
-  margin: 1rem 0;
-  background-color: #22293d;
-}
-.btn-secondary:hover {
-  -webkit-transition-duration: 0.4s;
-          transition-duration: 0.4s;
-}
-.btn-secondary:hover {
-  background-color: #7dc6eb;
-  border: 1px solid #22293d;
-  color: #22293d;
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
+  background-color: white !important;
+  border: 1px solid #cf6060 !important;
+  color: #cf6060 !important;
 }
 .navbar {
   -webkit-box-shadow: 2px 2px #f7f7f7;
@@ -481,7 +466,7 @@ footer .row .col .logo-footer {
     position: absolute;
     width: 300px;
     left: 0;
-    top: 66px;
+    top: 67px;
   }
 }
 .bg-adoption {
@@ -529,7 +514,7 @@ footer .row .col .logo-footer {
     position: absolute;
     width: 300px;
     left: 0;
-    top: 66px;
+    top: 67px;
   }
 }
 .bg-adoption h1 {
@@ -583,7 +568,7 @@ footer .row .col .logo-footer {
     position: absolute;
     width: 300px;
     left: 0;
-    top: 66px;
+    top: 67px;
   }
 }
 .bg-contact {
@@ -631,7 +616,7 @@ footer .row .col .logo-footer {
     position: absolute;
     width: 300px;
     left: 0;
-    top: 66px;
+    top: 67px;
   }
 }
 .bg-contact h1 {
@@ -902,7 +887,7 @@ main .service-card .card-content {
     position: absolute;
     width: 300px;
     left: 0;
-    top: 66px;
+    top: 67px;
   }
 }
 .search-area h2 {
