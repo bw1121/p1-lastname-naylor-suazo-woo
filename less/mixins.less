@@ -43,33 +43,34 @@
     padding: 0;
     border-radius: 0;
     margin-bottom: @pad-xs;
-    .container {
-        height: inherit;
-    }
-    h1 {
-        font-size: @head-lg;
-        padding: 51px 0;
-        margin: 0;
-    }
-    img {
-        display: none;
-    }
     @media (min-width: 768px) {
         height: 200px;
-        h1 {
-            font-size: @head-xl;
-            padding: 67.5px 0;
-        }
     }
     @media (min-width: 991px) {
         height: 320px;
-        .container {
+    }
+    
+    .container {
+        height: inherit;
+        @media (min-width: 991px) {
             position: relative;
-            h1 {
+        }
+        h1 {
+            font-size: @head-lg;
+            padding: 51px 0;
+            margin: 0;
+            @media (min-width: 768px) {
+                font-size: @head-xl;
+                padding: 67.5px 0;
+            }
+            @media (min-width: 991px) {
                 font-size: @head-xxl;
                 padding: 122px 0;
             }
-            img {
+        }
+        img {
+            display: none;
+            @media (min-width: 991px) {
                 display: inline-block;
                 position: absolute;
                 width: 300px;
@@ -166,22 +167,21 @@
         color: @lightgray;
         padding: @pad-xs;
         border-radius: @rounded @rounded 0 0;
+        @media (min-width: 576px) {
+            padding: @pad-sm;
+        }
     }
     .card-content {
         padding: @pad-xxs;
+        @media (min-width: 576px) {
+            padding: @pad-sm @pad-sm 0;
+        }
     }
     @media (min-width: 576px) {
         border: @border-blue;
         border-radius: @rounded;
         padding: 0 0 @pad-sm;
-        h3 {
-            padding: @pad-sm;
-        }
-        .card-content {
-            padding: @pad-sm @pad-sm 0;
-        }
     }
-
 }
 
 //Buttons

@@ -102,7 +102,6 @@ footer {
                 width: 70%;
             }
         }
-
     }
 }
 
@@ -143,72 +142,70 @@ footer {
 
 //Homepage
 .home-content {
-  .welcome-message {
-    text-align: @center;
-    margin-bottom: 10px;
-    margin-bottom: 35px;
-    h2 {
-      font-size: @head-lg;
-      padding-bottom: 10px;
+    .welcome-message {
+        text-align: @center;
+        margin-bottom: 10px;
+        margin-bottom: 35px;
+        h2 {
+        font-size: @head-lg;
+        padding-bottom: 10px;
+        }
+        @media (min-width: 450px) {
+            h2 {
+                font-size: @head-xl;
+            }
+            h5 {
+                font-size: @head-md;
+            }
+        }
+        @media (min-width: 700px) {
+            h2 {
+                font-size: @head-xxl;
+            }
+            h5 {
+                font-size: 2rem;
+            }
+        }
     }
-    @media (min-width: 450px) {
-      h2 {
-        font-size: @head-xl;
-      }
-      h5 {
-        font-size: @head-md;
-      }
+    .home-services {
+        figure {
+            text-align: @center;
+            padding: 10px 0;
+        }
+        a {
+            text-decoration: none;
+        }
+        .pink:hover {
+            h4 {
+                color: @pink;
+                transition: @transition-in-out;
+            }
+        }
+        .blue:hover {
+            h4 {
+                color: @blue;
+                transition: @transition-in-out;
+            }
+        }
+        .red:hover {
+            h4 {
+                color: @red;
+                transition: @transition-in-out;
+            }
+        }
+        figcaption {
+            padding-top: 20px;
+        }
+        h4 {
+            font-size: 2rem;
+        }
     }
-    @media (min-width: 700px) {
-      h2 {
-        font-size: @head-xxl;
-      }
-      h5 {
-        font-size: 2rem;
-      }
+    .text {
+        .text-js();
+        @media (min-width: 992px) {
+            display: block;
+        }
     }
-  }
-  .home-services {
-    figure {
-      text-align: @center;
-      padding: 10px 0;
-    }
-    a {
-      text-decoration: none;
-    }
-    .pink:hover {
-      h4 {
-        color: @pink;
-        transition: @transition-in-out;
-      }
-    }
-    .blue:hover {
-      h4 {
-        color: @blue;
-        transition: @transition-in-out;
-      }
-    }
-    .red:hover {
-      h4 {
-        color: @red;
-        transition: @transition-in-out;
-      }
-    }
-    figcaption {
-      padding-top: 20px;
-    }
-    h4 {
-      font-size: 2rem;
-    }
-  }
-  .text {
-    .text-js();
-    }
-    @media (min-width: 992px) {
-      .text {
-        display: block;
-      }
-  }
 }
 
 // Subpages - Grooming
@@ -237,33 +234,24 @@ main {
 
 // Boarding
 .boarding-fig {
-    @media (min-width: 320px) {
-        padding-left: 0;
-    }
+    padding-left: 0;
     @media (min-width: 1024px) {
         padding-left: @pad-md;
     }
 }
 
 .p-boarding {
-    @media (min-width: 320px) {
-        padding: 0 @pad-sm;
-        font-size: 1rem;
-    }
+    padding: 0 @pad-sm;
+    font-size: 1rem;
     @media (min-width: 768px) {
         padding: @pad-sm;
         font-size: 1.5rem;
     }
-    @media (min-width: 769px) {
-        padding: @pad-lg;
-    }
   }
 
 .article-white {
-    @media (min-width: 320px) {
-        padding: @pad-sm;
-        margin: 0;
-    }
+    padding: @pad-sm;
+    margin: 0;
     @media (min-width: 768px) {
         padding: @pad-sm 0;
         margin: @marg-md 0;
@@ -272,12 +260,10 @@ main {
 
 .article-darkgray { 
     background-color: @gray;
-    @media (min-width: 320px) {
-        padding: @pad-sm;
-        margin: 0;
-    }
+    padding: @pad-sm;
+    margin: 0;
     @media (min-width: 768px) {
-        padding: pad-sm 0;
+        padding: @pad-sm 0;
         margin: @marg-xl 0;
     }
 }
@@ -317,12 +303,10 @@ main {
     .search-label {
         font-size: @head-md;
     }
-    @media(min-width: 320px){
-        h2 {
-            font-size: 1.5rem;
-        }
-        height: 320px!important;
+    h2 {
+        font-size: 1.5rem;
     }
+    height: 320px !important;
     @media(min-width: 768px){
         h2 {
             font-size: 2rem;
