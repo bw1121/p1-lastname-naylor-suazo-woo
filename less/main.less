@@ -5,6 +5,23 @@ h1, h2, h3, h4 {
     .headlines();
 }
 
+h1 {
+    font-size: @head-lg;
+    @media (min-width: 768px) {
+        font-size: @head-xl;
+    }
+    @media (min-width: 1024px) {
+        font-size: @head-xxl;
+    }
+}
+
+h2 {
+    font-size: @head-md;
+    @media (min-width: 768px) {
+        font-size: @head-lg;
+    }
+}
+
 h3 {
     font-size: @head-md;
     @media (min-width: 768px) {
@@ -137,6 +154,65 @@ footer {
     .hero();
     h1 {
         .headlines-light-gray();
+    }
+}
+
+// Homepage hero style
+.home-hero {
+    .headlines-light-gray();
+    height: 300px;
+    text-align: right;
+    background-size: cover;
+    background-position: @center;
+    padding: 0;
+    border-radius: 0;
+    margin-bottom: @pad-xs;
+    .container {
+        height: inherit;
+        h1 {
+            padding: 50px 0 20px 0;
+            margin: 0;
+        }
+        img {
+            display: none;
+        }
+    }
+    @media (min-width: 333px) and (max-width: 353px) {
+      h1 {
+        padding: 70px 0 20px 0;
+      }
+    }
+    @media (min-width: 353px) {
+      h1 {
+        padding: 65px 0 20px 0;
+      }
+    }
+    @media (min-width: 600px) {
+      height: 370px;
+      h1 {
+        padding: 100px 0 20px 0;
+      }
+    }
+    @media (min-width: 768px) {
+        height: 400px;
+        h1 {
+          padding: 115px 0 20px 0;
+        }
+    }
+    @media (min-width: 830px) {
+      height: 500px;
+      h1 {
+          padding: 135px 0 20px 0;
+      }
+    }
+    @media (min-width: 1000px) {
+        height: 700px;
+        .container {
+            position: relative;
+            h1 {
+                padding: 195px 0 20px 0;
+            }
+        }
     }
 }
 

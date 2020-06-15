@@ -97,13 +97,11 @@
   height: inherit;
 }
 .home-hero h1 {
-  font-size: 1.5rem;
   padding: 50px 0 20px 0;
   margin: 0;
   color: #f7f7f7;
 }
 .home-hero h2 {
-  font-size: 1.5rem;
   color: #f7f7f7;
 }
 .home-hero img {
@@ -111,7 +109,6 @@
 }
 @media (min-width: 333px) and (max-width: 353px) {
   .home-hero h1 {
-    font-size: 1.4rem;
     padding: 70px 0 20px 0;
   }
   .home-hero h2 {
@@ -144,7 +141,6 @@
     height: 500px;
   }
   .home-hero h1 {
-    font-size: 2.5rem;
     padding: 135px 0 20px 0;
   }
   .home-hero h2 {
@@ -160,7 +156,6 @@
     position: relative;
   }
   .home-hero .container h1 {
-    font-size: 4rem;
     padding: 195px 0 20px 0;
   }
   .home-hero .container h2 {
@@ -170,7 +165,7 @@
 .cards {
   margin: 0 auto 1.5rem;
 }
-.cards h3 {
+.cards h2 {
   text-align: center;
   background-color: #22293d;
   color: #f7f7f7;
@@ -178,7 +173,7 @@
   border-radius: 8px 8px 0 0;
 }
 @media (min-width: 576px) {
-  .cards h3 {
+  .cards h2 {
     padding: 1.5rem;
   }
 }
@@ -228,6 +223,27 @@ h4 {
   font-family: all-round-gothic, sans-serif;
   font-weight: bold;
   color: #22293d;
+}
+h1 {
+  font-size: 2.5rem;
+}
+@media (min-width: 768px) {
+  h1 {
+    font-size: 3.4rem;
+  }
+}
+@media (min-width: 1024px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
+h2 {
+  font-size: 1.5rem;
+}
+@media (min-width: 768px) {
+  h2 {
+    font-size: 2.5rem;
+  }
 }
 h3 {
   font-size: 1.5rem;
@@ -345,6 +361,10 @@ footer .row .col .logo-footer {
 }
 .bg-home {
   background-image: url("../img/hero-img-home.jpg");
+  /*For dark background hero imgs*/
+  font-family: all-round-gothic, sans-serif;
+  font-weight: bold;
+  color: #f7f7f7;
   height: 300px;
   text-align: right;
   background-size: cover;
@@ -357,13 +377,11 @@ footer .row .col .logo-footer {
   height: inherit;
 }
 .bg-home h1 {
-  font-size: 1.5rem;
   padding: 50px 0 20px 0;
   margin: 0;
   color: #f7f7f7;
 }
 .bg-home h2 {
-  font-size: 1.5rem;
   color: #f7f7f7;
 }
 .bg-home img {
@@ -371,7 +389,6 @@ footer .row .col .logo-footer {
 }
 @media (min-width: 333px) and (max-width: 353px) {
   .bg-home h1 {
-    font-size: 1.4rem;
     padding: 70px 0 20px 0;
   }
   .bg-home h2 {
@@ -404,7 +421,6 @@ footer .row .col .logo-footer {
     height: 500px;
   }
   .bg-home h1 {
-    font-size: 2.5rem;
     padding: 135px 0 20px 0;
   }
   .bg-home h2 {
@@ -420,11 +436,65 @@ footer .row .col .logo-footer {
     position: relative;
   }
   .bg-home .container h1 {
-    font-size: 4rem;
     padding: 195px 0 20px 0;
   }
   .bg-home .container h2 {
     font-size: 4rem;
+  }
+}
+.bg-home .container {
+  height: inherit;
+}
+.bg-home .container h1 {
+  padding: 50px 0 20px 0;
+  margin: 0;
+}
+.bg-home .container img {
+  display: none;
+}
+@media (min-width: 333px) and (max-width: 353px) {
+  .bg-home h1 {
+    padding: 70px 0 20px 0;
+  }
+}
+@media (min-width: 353px) {
+  .bg-home h1 {
+    padding: 65px 0 20px 0;
+  }
+}
+@media (min-width: 600px) {
+  .bg-home {
+    height: 370px;
+  }
+  .bg-home h1 {
+    padding: 100px 0 20px 0;
+  }
+}
+@media (min-width: 768px) {
+  .bg-home {
+    height: 400px;
+  }
+  .bg-home h1 {
+    padding: 115px 0 20px 0;
+  }
+}
+@media (min-width: 830px) {
+  .bg-home {
+    height: 500px;
+  }
+  .bg-home h1 {
+    padding: 135px 0 20px 0;
+  }
+}
+@media (min-width: 1000px) {
+  .bg-home {
+    height: 700px;
+  }
+  .bg-home .container {
+    position: relative;
+  }
+  .bg-home .container h1 {
+    padding: 195px 0 20px 0;
   }
 }
 .bg-home h1 {
@@ -669,6 +739,74 @@ footer .row .col .logo-footer {
   font-weight: bold;
   color: #f7f7f7;
 }
+.home-hero {
+  /*For dark background hero imgs*/
+  font-family: all-round-gothic, sans-serif;
+  font-weight: bold;
+  color: #f7f7f7;
+  height: 300px;
+  text-align: right;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  border-radius: 0;
+  margin-bottom: 1rem;
+}
+.home-hero .container {
+  height: inherit;
+}
+.home-hero .container h1 {
+  padding: 50px 0 20px 0;
+  margin: 0;
+}
+.home-hero .container img {
+  display: none;
+}
+@media (min-width: 333px) and (max-width: 353px) {
+  .home-hero h1 {
+    padding: 70px 0 20px 0;
+  }
+}
+@media (min-width: 353px) {
+  .home-hero h1 {
+    padding: 65px 0 20px 0;
+  }
+}
+@media (min-width: 600px) {
+  .home-hero {
+    height: 370px;
+  }
+  .home-hero h1 {
+    padding: 100px 0 20px 0;
+  }
+}
+@media (min-width: 768px) {
+  .home-hero {
+    height: 400px;
+  }
+  .home-hero h1 {
+    padding: 115px 0 20px 0;
+  }
+}
+@media (min-width: 830px) {
+  .home-hero {
+    height: 500px;
+  }
+  .home-hero h1 {
+    padding: 135px 0 20px 0;
+  }
+}
+@media (min-width: 1000px) {
+  .home-hero {
+    height: 700px;
+  }
+  .home-hero .container {
+    position: relative;
+  }
+  .home-hero .container h1 {
+    padding: 195px 0 20px 0;
+  }
+}
 .home-content .welcome-message {
   text-align: center;
   margin-bottom: 10px;
@@ -758,7 +896,7 @@ main .service-card {
 main .service-card .center {
   text-align: center;
 }
-main .service-card h3 {
+main .service-card h2 {
   text-align: center;
   background-color: #22293d;
   color: #f7f7f7;
@@ -766,7 +904,7 @@ main .service-card h3 {
   border-radius: 8px 8px 0 0;
 }
 @media (min-width: 576px) {
-  main .service-card h3 {
+  main .service-card h2 {
     padding: 1.5rem;
   }
 }
@@ -845,7 +983,7 @@ main .service-card .card-content {
 .adoption-card {
   margin: 0 auto 1.5rem;
 }
-.adoption-card h3 {
+.adoption-card h2 {
   text-align: center;
   background-color: #22293d;
   color: #f7f7f7;
@@ -853,7 +991,7 @@ main .service-card .card-content {
   border-radius: 8px 8px 0 0;
 }
 @media (min-width: 576px) {
-  .adoption-card h3 {
+  .adoption-card h2 {
     padding: 1.5rem;
   }
 }
