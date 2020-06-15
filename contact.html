@@ -70,6 +70,79 @@
 
       <!-- Main content - form -->
       <main class="container">
+        <div class="row justify-content-md-center intro-copy">
+            <p class="col-md-8">If you have any questions, concerns, requests or comments, fill out the form below and we&rsquo;ll get back to you within 24 hours.</p>
+        </div>
+        
+        <!-- Form start -->
+        <form>
+            <div class="form-row justify-content-md-center">
+                <!-- name -->
+                <div class="form-group col-md-5">
+                <label for="inputEmail4">Name</label>
+                <input type="text" class="form-control">
+                </div>
+                <!-- email -->
+                <div class="form-group col-md-5">
+                <label for="inputEmail4">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+                </div>
+            </div>
+            <div class="form-row justify-content-md-center">
+                <!-- phone number -->
+                <div class="form-group col-md-5">
+                <label for="inputEmail4">Phone number</label>
+                <input type="text" class="form-control">
+                </div>
+                <!-- method of contact -->
+                <div class="form-group col-md-5">
+                <label for="inlineFormCustomSelect">Preferred method of contact</label>
+                <select class="custom-select">
+                    <option selected>Please choose...</option>
+                    <option value="1">Phone</option>
+                    <option value="2">Email</option>
+                  </select>
+                </div>
+            </div>
+            <div class="form-row justify-content-md-center">
+                <!-- about -->
+                <div class="form-group col-md-5">
+                    <label for="inlineFormCustomSelect">What is this about?</label>
+                    <select class="custom-select">
+                        <option selected>Please choose...</option>
+                        <option value="1">Grooming</option>
+                        <option value="2">Boarding</option>
+                        <option value="3">Adoption</option>
+                        <option value="4">Other</option>
+                      </select>
+                </div>
+                <!-- radio button - what pet -->
+                <div class="form-group col-md-5">
+                    <label for="inputEmail4" class="d-block">What kind of pet is your furry friend?</label>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline1">Dog</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline2" name="customRadioInline1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline2">Cat</label>
+                    </div>
+                </div>
+            </div>
+            <!-- comment -->
+            <div class="form-row justify-content-md-center">
+                <div class="form-group col-md-10">
+                    <label for="comment">Comment</label>
+                    <textarea class="form-control" rows="5" id="comment"></textarea>
+                </div>
+            </div>
+            <!-- send button -->
+            <div class="form-row justify-content-md-center">
+                <div class="col-md-10">
+                    <button class="btn btn-primary" type="submit">Send</button>
+                </div>
+            </div>   
+          </form>
        
       </main>
 
