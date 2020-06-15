@@ -745,6 +745,9 @@ main .service-card .card-content {
     border-bottom: 0;
   }
 }
+.grooming-main {
+  padding-bottom: 5.5rem;
+}
 @media (min-width: 320px) {
   .boarding-fig {
     padding-left: 0;
