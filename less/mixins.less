@@ -84,6 +84,11 @@
 // Cards
 .cards {
     margin: 0 auto @pad-sm;
+    @media (min-width: 576px) {
+        border: @border-blue;
+        border-radius: @rounded;
+        padding: 0 0 @pad-sm;
+    }
     h2 {
         text-align: @center;
         background-color: @blackblue;
@@ -99,11 +104,6 @@
         @media (min-width: 576px) {
             padding: @pad-sm @pad-sm 0;
         }
-    }
-    @media (min-width: 576px) {
-        border: @border-blue;
-        border-radius: @rounded;
-        padding: 0 0 @pad-sm;
     }
 }
 

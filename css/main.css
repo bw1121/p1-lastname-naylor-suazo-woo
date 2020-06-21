@@ -87,6 +87,13 @@
 .cards {
   margin: 0 auto 1.5rem;
 }
+@media (min-width: 576px) {
+  .cards {
+    border: 1px solid #22293d;
+    border-radius: 8px;
+    padding: 0 0 1.5rem;
+  }
+}
 .cards h2 {
   text-align: center;
   background-color: #22293d;
@@ -105,13 +112,6 @@
 @media (min-width: 576px) {
   .cards .card-content {
     padding: 1.5rem 1.5rem 0;
-  }
-}
-@media (min-width: 576px) {
-  .cards {
-    border: 1px solid #22293d;
-    border-radius: 8px;
-    padding: 0 0 1.5rem;
   }
 }
 .buttons {
@@ -219,6 +219,12 @@ p {
 .navbar .nav-item:last-child {
   border-bottom: none;
 }
+@media (min-width: 991px) {
+  .navbar .nav-item {
+    border-bottom: none;
+    font-size: 1.2rem;
+  }
+}
 .navbar .nav-item .nav-link {
   font-family: nanum-gothic, sans-serif;
   font-weight: normal;
@@ -230,12 +236,6 @@ p {
   border: 4px solid #7dc6eb;
   border-radius: 8px;
   padding: 0.18rem .3rem;
-}
-@media (min-width: 991px) {
-  .navbar .nav-item {
-    border-bottom: none;
-    font-size: 1.2rem;
-  }
 }
 footer {
   background-color: #22293d;
@@ -673,6 +673,13 @@ main .service-card {
 main .service-card .center {
   text-align: center;
 }
+@media (min-width: 576px) {
+  main .service-card {
+    border: 1px solid #22293d;
+    border-radius: 8px;
+    padding: 0 0 1.5rem;
+  }
+}
 main .service-card h2 {
   text-align: center;
   background-color: #22293d;
@@ -691,13 +698,6 @@ main .service-card .card-content {
 @media (min-width: 576px) {
   main .service-card .card-content {
     padding: 1.5rem 1.5rem 0;
-  }
-}
-@media (min-width: 576px) {
-  main .service-card {
-    border: 1px solid #22293d;
-    border-radius: 8px;
-    padding: 0 0 1.5rem;
   }
 }
 main .service-card .card-content {
@@ -760,6 +760,13 @@ main .service-card .card-content {
 .adoption-card {
   margin: 0 auto 1.5rem;
 }
+@media (min-width: 576px) {
+  .adoption-card {
+    border: 1px solid #22293d;
+    border-radius: 8px;
+    padding: 0 0 1.5rem;
+  }
+}
 .adoption-card h2 {
   text-align: center;
   background-color: #22293d;
@@ -778,13 +785,6 @@ main .service-card .card-content {
 @media (min-width: 576px) {
   .adoption-card .card-content {
     padding: 1.5rem 1.5rem 0;
-  }
-}
-@media (min-width: 576px) {
-  .adoption-card {
-    border: 1px solid #22293d;
-    border-radius: 8px;
-    padding: 0 0 1.5rem;
   }
 }
 @media (min-width: 768px) {
@@ -854,22 +854,19 @@ main .service-card .card-content {
     top: 67px;
   }
 }
-.search-area h2 {
-  color: #f7f7f7;
-}
-.search-area .search-label {
-  font-size: 1.5rem;
-}
-.search-area h2 {
-  font-size: 1.5rem;
-}
 @media (min-width: 768px) {
   .search-area {
     height: 250px!important;
   }
-  .search-area h2 {
-    font-size: 2rem;
-  }
+}
+.search-area h2 {
+  /*For dark background hero imgs*/
+  font-family: all-round-gothic, sans-serif;
+  font-weight: bold;
+  color: #f7f7f7;
+}
+.search-area .search-label {
+  font-size: 1.5rem;
 }
 .progress-area {
   padding: 1.5rem;
